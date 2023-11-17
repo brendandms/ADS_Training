@@ -66,6 +66,7 @@
     <modules>
         <module>.decisionservice</module>
         <module>My Model</module>
+        <module>Data</module>
     </modules>
 
     <build>

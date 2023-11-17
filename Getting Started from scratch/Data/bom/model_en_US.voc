@@ -1,0 +1,25 @@
+
+# cpadmin.brendan_training.getting_started_from_scratch.data.Temperature
+cpadmin.brendan_training.getting_started_from_scratch.data.Temperature#concept.documentation = 
+cpadmin.brendan_training.getting_started_from_scratch.data.Temperature#concept.label = temperature
+cpadmin.brendan_training.getting_started_from_scratch.data.Temperature.cold#instance.label = cold
+cpadmin.brendan_training.getting_started_from_scratch.data.Temperature.hot#instance.label = hot
+cpadmin.brendan_training.getting_started_from_scratch.data.Temperature.warm#instance.label = warm
+
+# cpadmin.brendan_training.getting_started_from_scratch.data.Weather
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather#concept.label = weather
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.Weather(long,boolean,cpadmin.brendan_training.getting_started_from_scratch.data.Temperature)#phrase.navigation = a new {weather} where {0, rain forecast} {1, storm alert} {2, temperature}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.rainForecast#phrase.action = set the rain forecast of {this} to {rain forecast}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.rainForecast#phrase.addition_setter = add {rain forecast} to the rain forecast of {this}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.rainForecast#phrase.navigation = {rain forecast} of {this}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.rainForecast#phrase.subtraction_setter = subtract {rain forecast} from the rain forecast of {this}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.action[0] = {this} gets storm alert only if {storm alert}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.action[1] = make it {storm alert} that {this} is storm alert
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.action[1].deprecated = true
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.navigation = {this} is storm alert
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.negative_predicate = {this} is not storm alert
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.negative_predicate_setter = {this} does not get storm alert
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.stormAlert#phrase.positive_predicate_setter = {this} gets storm alert
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.temperature#phrase.action = set the temperature of {this} to {temperature}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.temperature#phrase.clearer = clear the temperature of {this}
+cpadmin.brendan_training.getting_started_from_scratch.data.Weather.temperature#phrase.navigation = {temperature} of {this}
